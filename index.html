@@ -10937,6 +10937,12 @@
     </div>
   </div>
 </div>
-
+<script>
+  // Función que muestra un alert al hacer clic en cualquier elemento
+  document.addEventListener('click', function(event) {
+            const elementoSeleccionado = event.target;
+            console.log(`Elemento seleccionado: ${elementoSeleccionado.tagName}`);
+        });
+</script>
 </body>
 </html>
